@@ -1,5 +1,11 @@
+import { Router } from '../router/Router';
+
 function Main() {
-  return <main></main>;
+  return (
+    <main data-theme="light">
+      <Router />
+    </main>
+  );
 }
 
 export default Main;
